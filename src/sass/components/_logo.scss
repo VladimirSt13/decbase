@@ -1,0 +1,16 @@
+.logo {
+  display: block;
+
+  font-family: $logo-fonts;
+
+  @include font($fw: 700, $fs: 24px, $lh: 1.17);
+
+  @media screen and(min-width: $desktop) {
+    font-size: 26px;
+    line-height: 1.19;
+  }
+
+  &__accent {
+    color: $accent-color-primary;
+  }
+}

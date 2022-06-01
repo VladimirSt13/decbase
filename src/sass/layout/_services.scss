@@ -1,0 +1,36 @@
+.services {
+  &__container {
+  }
+
+  &__pre-title {
+  }
+
+  &__title {
+  }
+
+  &__list {
+  }
+}
+.section {
+}
+.container {
+}
+.title {
+  &:not(:last-child) {
+    margin-bottom: 60px;
+  }
+}
+.list-services {
+  display: flex;
+  &__item {
+  }
+
+  &__icon {
+  }
+
+  &__title {
+  }
+
+  &__text {
+  }
+}

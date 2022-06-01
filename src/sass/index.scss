@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+@use 'sass:math';
+
+@import './vendors/common';
+@import './utils/mixins';
+@import './utils/variables';
+@import './utils/visually-hidden';
+
+@import './base/reset';
+@import './base/base';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/services';

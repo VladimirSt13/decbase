@@ -1,0 +1,51 @@
+body {
+  font-family: $main-font;
+  @include font(null, 18px, 1.55, null);
+  background-color: #fff;
+  color: #646464;
+}
+
+.noscroll {
+  overflow: hidden;
+}
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.container {
+  max-width: 1363px + 35px * 2;
+  padding: 0 35px;
+  margin: 0 auto;
+}
+.logo {
+}
+.link {
+}
+.list {
+}
+.title {
+  font-family: $secondary-font;
+  @include font(500, 48px, 1, null);
+  color: #212121;
+}
+.pre-title {
+  font-family: $secondary-font;
+  @include font(600, 40px, 1, null);
+  text-transform: uppercase;
+  color: #646464;
+  &:not(:last-child) {
+    margin-bottom: 8px;
+  }
+}
+
+.button {
+  padding: 12px 30px;
+
+  border: none;
+  border-radius: 20px 0px;
+
+  @include font(700, 18, 1, null);
+
+  color: #ffffff;
+  background-color: #37806b;
+}
