@@ -1,0 +1,58 @@
+// @import '../../node_modules/swiper/swiper-bundle.min.css';
+
+.testimonials {
+  padding-top: 160px;
+  // .testimonials__container
+  &__container {
+  }
+  // .testimonials__pre-title
+  &__pre-title {
+    text-align: center;
+  }
+  // .testimonials__title
+  &__title {
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  // .testimonials__list
+  &__list {
+  }
+}
+.list-testimonials {
+  // .list-testimonials__item
+  &__item {
+    position: relative;
+    width: 571px;
+    padding: 40px 40px 60px 100px;
+    background-color: #ffffff;
+    box-shadow: 7px 7px 30px 5px rgba(66, 96, 84, 0.15);
+    border-radius: 70px 0px;
+  }
+  // .list-testimonials__icon
+  &__foto {
+    position: absolute;
+    left: -60px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  // .list-testimonials__body
+  &__body {
+  }
+  // .list-testimonials__title
+  &__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(33 / 24);
+    color: #212121;
+    margin-bottom: 8px;
+    & span {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: calc(22 / 16);
+      color: #646464;
+    }
+  }
+  // .list-testimonials__text
+  &__text {
+  }
+}
