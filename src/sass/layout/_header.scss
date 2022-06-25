@@ -40,6 +40,7 @@
 
   &__button {
     padding: 5px 20px;
+    text-transform: capitalize;
 
     border-radius: 15px 0px;
     @include font(600, 16, 1.375, null);

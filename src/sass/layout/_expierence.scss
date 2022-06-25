@@ -1,0 +1,51 @@
+.expierence {
+  padding-top: 105px;
+  padding-bottom: 205px;
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__content {
+    flex: 0 1 40%;
+  }
+
+  &__pre-title-wrap {
+    background-image: url(../images/bg-expierence.jpg);
+    background-position: 14px -87px;
+  }
+
+  &__pre-title {
+    mix-blend-mode: lighten;
+    color: #000;
+    background: #fff;
+    font-weight: 700;
+    font-size: 288px;
+    letter-spacing: -0.01em;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 1.3;
+    letter-spacing: 0.04em;
+    &:not(:last-child) {
+      margin-bottom: 35px;
+    }
+  }
+
+  &__button {
+  }
+
+  &__tumb {
+    flex-basis: 50%;
+  }
+
+  &__image {
+  }
+}
