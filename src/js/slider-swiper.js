@@ -1,9 +1,9 @@
-import Swiper from 'swiper';
-// import Swiper, Navigation, Pagination from 'swiper/swiper-bundle';
+// core version + navigation, pagination modules:
+import Swiper, { Navigation, Pagination } from 'swiper';
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  direction: 'vertical',
+  direction: 'horizontal',
   loop: true,
 
   // If we need pagination

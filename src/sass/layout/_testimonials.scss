@@ -1,4 +1,4 @@
-// @import '../../node_modules/swiper/swiper-bundle.min.css';
+@import '../../node_modules/swiper/swiper-bundle.min.css';
 
 .testimonials {
   padding-top: 160px;
@@ -55,4 +55,9 @@
   // .list-testimonials__text
   &__text {
   }
+}
+
+.swiper {
+  width: 632px;
+  height: 300px;
 }
