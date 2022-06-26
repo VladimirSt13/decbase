@@ -1,9 +1,9 @@
 // core version + navigation, pagination modules:
-import Swiper, { Navigation, Pagination } from 'swiper';
+import Swiper from 'swiper/swiper-bundle';
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
-  direction: 'horizontal',
+  // direction: 'vertical',
   loop: true,
 
   // If we need pagination
@@ -21,4 +21,7 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     el: '.swiper-scrollbar',
   },
+
+  slidesPerView: 2,
+  spaceBetween: 47,
 });
